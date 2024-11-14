@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "memory": 512,
+      "maxDuration": 10,
+      "includeFiles": "api/**"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
+}
