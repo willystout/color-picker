@@ -4,7 +4,7 @@
     "api/**/*.js": {
       "memory": 512,
       "maxDuration": 10,
-      "includeFiles": "api/**"
+      "includeFiles": "/api/**"
     }
   },
   "routes": [

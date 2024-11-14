@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 app = Flask(__name__)
 
-knn_model = joblib.load('/Users/williamstout/Dropbox/My Mac (William’s MacBook Pro (2))/Desktop/career_prep/color-picker/model/knn_model.joblib')
+knn_model = joblib.load('/Users/williamstout/Dropbox/My Mac (William’s MacBook Pro (2))/Desktop/career_prep/color-picker/api/knn_model.joblib')
 
 @app.route("/api/identify", methods=['GET'])
 def classify_color():
